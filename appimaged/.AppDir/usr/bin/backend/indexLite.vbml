@@ -1,0 +1,77 @@
+# VBML 1.0.0
+#--------------------------------------------------------------------------------------------------
+# Properties
+#--------------------------------------------------------------------------------------------------
+
+type: index
+
+source: https://raw.githubusercontent.com/omega-gg/backend/master/indexLite.vbml
+
+api: 1.0.0
+
+version: 1.0.163
+
+#--------------------------------------------------------------------------------------------------
+# Backends
+#--------------------------------------------------------------------------------------------------
+
+backend_hub: |
+    tmdb
+    twitch
+
+backend_search: |
+    duckduckgo
+
+backend_track: |
+    duckduckgo
+    tmdb
+    youtube
+    dailymotion
+    vimeo
+    twitch
+    tiktok
+    facebook
+    lastfm
+    soundcloud
+
+backend_cover: |
+    tmdb
+    lastfm
+
+backend_subtitle: |
+    opensubtitles
+
+#--------------------------------------------------------------------------------------------------
+
+backends: |
+    duckduckgo    DuckDuckGo    1.0.14 ^html.duckduckgo.com
+    youtube       Youtube       1.0.58 ^youtube.com|^youtu.be
+    dailymotion   Dailymotion   1.0.4  ^dailymotion.com|^games.dailymotion.com
+    vimeo         Vimeo         1.0.2  ^vimeo.com
+    facebook      Facebook      1.0.7  ^facebook.com
+    odysee        Odysee        1.0.6  ^odysee.com
+    peertube      PeerTube      1.0.4  /watch/[a-zA-Z0-9]{8}|/w/[a-zA-Z0-9]{8}
+    twitch        Twitch        1.0.28 ^twitch.tv
+    tiktok        TikTok        1.0.7  ^tiktok.com
+    soundcloud    SoundCloud    1.0.9  ^soundcloud.com
+    tmdb          TMDB          1.0.30 ^themoviedb.org
+    lastfm        Last.fm       1.0.6  ^last.fm
+    opensubtitles OpenSubtitles 1.0.7  ^opensubtitles.org
+
+covers: |
+    duckduckgo  cover/duckduckgo.png
+    youtube     cover/youtube.png
+    dailymotion cover/dailymotion.png
+    vimeo       cover/vimeo.png
+    facebook    cover/facebook.png
+    odysee      cover/odysee.png
+    peertube    cover/peertube.png
+    twitch      cover/twitch.png
+    tiktok      cover/tiktok.png
+    soundcloud  cover/soundcloud.png
+    tmdb        cover/tmdb.png
+    lastfm      cover/lastfm.png
+
+hubs: |
+    tmdb   https://omega.gg/vox/tmdb
+    twitch https://omega.gg/vox/twitch

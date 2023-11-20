@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Motionbox
+Comment=\sVideo Browser for Motion Freedom appimage version\n
+Icon=motionbox
+Exec=MotionBox %f
+Categories=Game;Shooter
+Terminal=false
+StartupNotify=false
+Path=
+
+
